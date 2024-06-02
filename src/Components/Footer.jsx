@@ -35,7 +35,6 @@ const Footer = (props) => {
     linkedIn,
     medium,
     name,
-    primaryColor,
     twitter,
     youTube,
   } = props;
@@ -48,8 +47,8 @@ const Footer = (props) => {
         flexDirection: "column",
         alignItems: "center",
         gap: "2.5rem",
-        padding: "5rem 0 3rem",
-        backgroundColor: primaryColor,
+        padding: "1rem 0 3rem",
+        backgroundColor: "black",
         width: "100vw"
       }}
     >
